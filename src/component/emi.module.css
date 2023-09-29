@@ -1,0 +1,227 @@
+.emicontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 140px;
+}
+.emibox {
+  width: 1000px;
+  border-radius: 15px;
+  background-image: url("/public/bg2.jpeg");
+  background-size: cover;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+  padding: 20px;
+}
+.boxcenter {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.loan {
+  display: flex;
+  justify-content: space-between;
+}
+.loanTenor {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.loanrate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.slide10 {
+  margin-right: -20px;
+}
+.loanlabel {
+  font-weight: 500;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 100%;
+  display: flex;
+  margin-bottom: 35px;
+}
+.slidebox {
+  width: 45%;
+  margin-left: 43px;
+  margin-right: 60px;
+}
+.rangeinput {
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 5px;
+  background: #cdd8e7;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.rangeinput::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #1842cc;
+  cursor: pointer;
+}
+.principal input {
+  width: 140px;
+  text-align: right;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.cardbox {
+  width: 55%;
+  border-radius: 10px;
+  background-image: url("/public/bg.jpg");
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.emirs {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.emis {
+  color: white;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.youremi {
+  color: white;
+  margin-left: 4px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.total {
+  display: flex;
+  width: 100%;
+}
+.totalbox {
+  width: 50%;
+  margin-left: 15%;
+}
+.dotfle {
+  display: flex;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  margin-top: 7px;
+  border-radius: 50%;
+  background-color: #1842cc;
+  margin-left: -20px;
+  margin-right: 5px;
+}
+.dott {
+  margin-top: 7px;
+  margin-left: -20px;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #b0b4c2;
+}
+.font {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 600;
+}
+.colorstyle {
+  color: white;
+}
+.totalAmountPaid {
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 18%;
+  padding-left: 10%;
+  padding-top: 26px;
+}
+.tabp {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.hr {
+  color: "rgba(177, 171, 171, 0.425)";
+  margin-top: "10px";
+}
+
+@media only screen and (max-width: 1150px) {
+  .emibox {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .box {
+    flex-direction: column-reverse;
+  }
+  .cardbox {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .slidebox {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .slide10 {
+    margin-right: 0;
+  }
+  .totalAmountPaid {
+    margin-bottom: 50px;
+  }
+  .emicontainer {
+    margin-top: 4vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .youremi {
+    font-size: 6.5vw;
+  }
+  .emis {
+    font-size: 3.5vw;
+    margin-top: 3.3vw;
+  }
+  .totalAmountPaid {
+    font-size: 3.5vw;
+    margin-bottom: 5vw;
+  }
+  .tabp {
+    font-size: 6vw;
+    margin-top: -1vw;
+  }
+  .hr {
+    margin-bottom: -3dvw;
+  }
+  .colorstyle {
+    font-size: 4vw;
+    font-weight: 550;
+  }
+  .heading {
+    font-size: 5vw;
+  }
+  .totalbox {
+    margin-left: 10.5%;
+  }
+  .emicontainer {
+    margin-top: 0;
+  }
+}
